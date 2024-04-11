@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { API_KEY, API_URL } from './utils/constants';
+import { API_KEY, API_URL } from '../utils/constants';
 import RecCard from './RecCard';
 import { Link } from 'react-router-dom';
 import Shimmer from './Shimmer';

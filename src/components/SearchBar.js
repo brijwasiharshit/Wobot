@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { API_KEY, API_URL } from './utils/constants';
+import { API_KEY, API_URL } from '../utils/constants';
 
 const SearchBar = ({setListOfItems}) => {
     const [ingredients, setIngredients] = useState('');

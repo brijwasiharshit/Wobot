@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { API_KEY, API_URL } from './utils/constants';
+import { API_KEY, API_URL } from '../utils/constants';
 
 const RecipeInfo = () => {
     const [recipeInformation, setRecipeInformation] = useState(null);
