@@ -12,7 +12,7 @@ const Body = () => {
 
     useEffect(() => {
         fetchData();
-    }, []);
+    }, [ListOfItems]);
 
     const fetchData = async () => {
         try {
